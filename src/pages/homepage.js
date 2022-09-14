@@ -19,7 +19,8 @@ const Homepage = () => {
           </div>
           </div>
           <div className="right_text">
-            <h1 className="heading1">Online Workshop</h1>
+            <h1 className="heading1">Online
+            <a href="#" className="hoverh"> Workshop</a></h1>
             <p className="paragraph1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tortor purus, suscipit a accumsan quis, blandit a dolor. Morbi
@@ -32,7 +33,7 @@ const Homepage = () => {
       <section>
       <div className="text_image_portion">
         <div className="left_text">
-          <h4 className="title">About us</h4>
+          <h4 className="paragraph1">About us</h4>
           <h1 className="heading1">Over 10 years experience in industry</h1>
           <p className="paragraph2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -45,10 +46,10 @@ const Homepage = () => {
             <li>Aliquam tortor purus</li>
             <li>Blandit a dolor</li>
           </ul>
-          <h4 className="last_heading">Lorem ipsum dolor sit amet</h4>
+          <h4 className="last_heading">Lorem ipsum dolor sit <a href="#" className="hoverh">amet</a></h4>
         </div>
         <div className="right_image">
-          <div className="image">
+          <div className="image3">
             <img
               src="https://mobirise.com/extensions/seminarm4/workshop/assets/images/w3-1076x1345.jpg"
               className="pic"
@@ -59,7 +60,7 @@ const Homepage = () => {
       </section>
       <section>
       <div className="four_image">
-        <h1 className="head">What we do</h1>
+        <h1 className="heading1">What we do</h1>
         <div className="four_portion">
           <ImageText imk="https://mobirise.com/extensions/seminarm4/workshop/assets/images/w5-1076x1076.jpg" par="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis
           eius accusamus possimus facere assumenda quae odit qui reprehenderit
@@ -123,10 +124,10 @@ const Homepage = () => {
             />
           </div>
             <div className="b">
-                <h1 className="heading">Testimonials</h1>
+                <a className="heading  hoverh">Testimonials</a>
             </div>
           </div>
-          <div className="right_text">
+          <div className="right_text2">
             <p className="paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               tortor purus, suscipit a accumsan quis, blandit a dolor. Morbi
@@ -154,7 +155,6 @@ const Homepage = () => {
       </div>
       </section>
       </>
-    
     
   );
 };
