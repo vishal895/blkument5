@@ -10,25 +10,25 @@
 }
 .box{
     line-height: 1;
-    margin-left: -72%;
+    margin-left: -82%;
     margin-top: 75%;
-    width: 60%;
-    height: 458px;
+    width: 72%;
     background-color: white;
     padding: 20px;
     
 
 }
 .heading{
-    font-size: 40px;
+    font-size: 1.7rem;
+    line-height: 1.5;
     font-weight: bold;
-    margin-bottom: 5px;
-    margin-top: 2px;
+    
 }
 .paragraph{
     
-    font-size: 30px;
-    line-height: 2;}
+    font-size:1.25rem;
+    line-height: 1.7;
+}
 .fk{
     display: flex;
     margin-bottom: auto;
