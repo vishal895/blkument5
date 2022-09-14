@@ -11,7 +11,7 @@ const ImageText = ({imk,hd,par}) => {
         />
       </div>
       <div className="box">
-        <h5 className="heading">{hd}</h5>
+        <a href="#" className="heading  hoverh">{hd}</a>
         <p className="paragraph">
          {par}
         </p>
